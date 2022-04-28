@@ -6,14 +6,14 @@ static int centered = 0;     /* -c option; centers dmenu on screen */
 static int min_width = 500;  /* minimum width when centered */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Arimo Nerd Font:Bold:size=11:antialias=true:autohint=true"
+	"Arimo Nerd Font:Bold:size=12:antialias=true:autohint=true"
 };
 static const char *prompt      = NULL; /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
-	/*     fg         bg       */
-	[SchemeNorm] = { "#abb2bf", "#282c34" },
-	[SchemeSel] = { "#1e2121", "#61afef" },
-	[SchemeOut] = { "#282c34", "#e06c75" },
+  /*     Scheme            fg         bg       */
+	[SchemeNorm] = { "#c3c7d1", "#282c34" },
+	[SchemeSel] = { "#161925", "#c74ded" },
+	[SchemeOut] = { "#282c34", "#ed254e" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
